@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding-bottom: 20px;
+    background: linear-gradient(#2D8469, #023022);
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+h3 {
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 40px;
+    font-style: bold;
+    color: #EEEEEE;
+    margin-top: 100px;
+    margin-bottom: -100px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;    
+    color: #F94F6D;   
+    background-color: #080001;  
+    border-radius: 5px; 
+    text-align: center;
+    padding: 20px 15px 10px 15px;   
+    margin-bottom: 20px;                                
+}
+
+.add-score-btn {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 18px;
+    color: #A7F3D0; 
+    background-color: transparent;
+    border: 2px solid #A7F3D0;   
+    border-radius: 5px;
+    padding: 10px 8px;
+    margin: 5px;
+    cursor: pointer;
+}
+@media all and (max-width: 350px) {
+    h3 {
+        font-size: 30px;
+        padding-bottom: 20px;
+        }
+    h4 {
+        padding: 15px 10px 5px 10px; 
+        font-size: 70px;
+    }
+    .add-score-btn {
+        font-size: 12px;
+    }
+
+}
